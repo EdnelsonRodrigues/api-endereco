@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="API para busca de endereço apartir do CEP">
+  <meta name="author" content="Ednelson Rodrigues - Analista de sistemas -">
+
+  <title>Buscar meu CEP</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+  <!-- Custom css -->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  <!-- Adicionando JQuery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <div class="container centro">
+    <form method="get" action=".">
+      <div class="row">
+        <div class="form-group col-md-12">
+          <h3 class="titulo">Buscar Endereço</h3>
+        </div>
+
+        <div class="form-group col-md-2">
+          <label>CEP</label>
+          <input name="cep" type="text" id="cep" value="" 
+          size="10" maxlength="9" class="form-control form-control-sm">
+        </div>
+
+        <div class="form-group col-md-10">
+          <label>Rua</label>
+          <input name="rua" type="text" id="rua" class="form-control form-control-sm">
+        </div>
+
+        <div class="form-group col-md-2">
+          <label >Nº</label>
+          <input name="numero" type="text" id="numero" size="60" class="form-control form-control-sm">
+        </div>
+
+        <div class="form-group col-md-4">
+          <label >Complemento</label>
+          <input name="complemento" type="text" id="complemento" class="form-control form-control-sm">
+        </div>  
+
+        <div class="form-group col-md-6">
+          <label >Bairro</label>
+          <input name="bairro" type="text" id="bairro" size="40" class="form-control form-control-sm">
+        </div> 
+
+        <div class="form-group col-md-10">
+          <label >Cidade</label>
+          <input name="cidade" type="text" id="cidade" size="40" class="form-control form-control-sm">
+        </div>
+
+        <div class="form-group col-md-2">
+          <label >Estado</label>
+          <input name="uf" type="text" id="uf" size="2" class="form-control form-control-sm">
+        </div>
+      </div>
+    </form>
+  </div>
+
+<!-- adicionando javascript -->
+<script type="text/javascript" src="js/cep.js"></script>
+</body>
+</html>

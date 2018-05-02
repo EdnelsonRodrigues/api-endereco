@@ -1,0 +1,32 @@
+body {
+	background-color: #e8e8e8;
+}
+
+.centro {
+	background: #f9f9f9;
+	margin-top: 5%;
+	width: 70%;
+	border-radius: 10px;
+}
+
+.titulo {
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+/* placeholders italicos para cada navegador */
+::-webkit-input-placeholder {
+   font-style: italic;
+}
+:-moz-placeholder {
+   font-style: italic;  
+}
+::-moz-placeholder {
+   font-style: italic;  
+}
+:-ms-input-placeholder {  
+   font-style: italic; 
+}
